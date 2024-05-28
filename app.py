@@ -57,7 +57,7 @@ def generate_prompt(selected_options, day, color_theme):
         return f"Generate a pose suggestion for a {photo_type} photo at a {event_type} event, with a focus on {color} color theme"
 
 if selected == "Generate Pose Suggestions":
-    st.title("अtithi")
+    st.title("अtithi PosePerfect")
     st.markdown("<p style='text-align:center;'>You can download the image with right click > save image</p>", unsafe_allow_html=True)
 
     options = {
