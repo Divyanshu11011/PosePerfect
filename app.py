@@ -15,7 +15,7 @@ load_dotenv()
 os.environ['FAL_KEY'] = st.secrets["fal_ai"]["api_key"]
 
 st.set_page_config(
-    page_title="Pose Suggestions For Photographers",
+    page_title="अtithi's PosePerfect",
 )
 
 # Define the sidebar
